@@ -30,7 +30,7 @@ async def main():
             logger.info("EmojiSync is currently disabled via config.")
         logger.separator()
         
-        await bot.load_extension("reo.src")
+        # await bot.load_extension("reo.src")
 
         tasks = []
 
